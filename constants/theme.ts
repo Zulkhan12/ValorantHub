@@ -1,53 +1,90 @@
-/**
- * Below are the colors that are used in the app. The colors are defined in the light and dark mode.
- * There are many other ways to style your app. For example, [Nativewind](https://www.nativewind.dev/), [Tamagui](https://tamagui.dev/), [unistyles](https://reactnativeunistyles.vercel.app), etc.
- */
-
-import { Platform } from 'react-native';
-
-const tintColorLight = '#0a7ea4';
-const tintColorDark = '#fff';
-
-export const Colors = {
-  light: {
-    text: '#11181C',
-    background: '#fff',
-    tint: tintColorLight,
-    icon: '#687076',
-    tabIconDefault: '#687076',
-    tabIconSelected: tintColorLight,
-  },
-  dark: {
-    text: '#ECEDEE',
-    background: '#151718',
-    tint: tintColorDark,
-    icon: '#9BA1A6',
-    tabIconDefault: '#9BA1A6',
-    tabIconSelected: tintColorDark,
-  },
+export const COLORS = {
+  primary: '#FF4655', 
+  background: '#0F1923',
+  cardBg: '#1F2326',
+  textPrimary: '#ECE8E1',
+  textSecondary: '#768079',
+  white: '#FFFFFF',
+  gold: '#D4AF37'
 };
 
-export const Fonts = Platform.select({
-  ios: {
-    /** iOS `UIFontDescriptorSystemDesignDefault` */
-    sans: 'system-ui',
-    /** iOS `UIFontDescriptorSystemDesignSerif` */
-    serif: 'ui-serif',
-    /** iOS `UIFontDescriptorSystemDesignRounded` */
-    rounded: 'ui-rounded',
-    /** iOS `UIFontDescriptorSystemDesignMonospaced` */
-    mono: 'ui-monospace',
+export const FONTS = {
+  regular: 'Poppins-Regular',
+  bold: 'Poppins-Bold',
+  semiBold: 'Poppins-SemiBold',
+};
+
+// DATA DIPERBARUI DENGAN PATH VIDEO LOKAL
+export const TOURNAMENTS = [
+  {
+    id: 1,
+    name: "VCT Champions 2021",
+    location: "Berlin, Germany",
+    winner: "Acend",
+    lat: 52.5200,
+    lng: 13.4050,
+    year: "2021",
+    prizePool: "US$ 1,000,000",
+    score: "Acend 3-2 Gambit Esports",
+    mvp: "Aleksander “zeek” Zygmunt",
+    anthemUrl: "https://youtu.be/h7MYJghRWt0?si=bL4V5yqCi1DjLyxr",
+    // BARU: Tambahkan path require ke video lokal
+    localAnthem: require('@/assets/videos/anthem_2021.mp4')
   },
-  default: {
-    sans: 'normal',
-    serif: 'serif',
-    rounded: 'normal',
-    mono: 'monospace',
+  {
+    id: 2,
+    name: "VCT Champions 2022",
+    location: "Istanbul, Turkey",
+    winner: "LOUD",
+    lat: 41.0082,
+    lng: 28.9784,
+    year: "2022",
+    prizePool: "US$ 1,000,000",
+    score: "LOUD 3-1 OpTic Gaming",
+    mvp: "Bryan “pANcada” Luna",
+    anthemUrl: "https://youtu.be/DqgK4llE1cw?si=ABorcrI05aOFO593",
+    localAnthem: require('@/assets/videos/anthem_2022.mp4')
   },
-  web: {
-    sans: "system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif",
-    serif: "Georgia, 'Times New Roman', serif",
-    rounded: "'SF Pro Rounded', 'Hiragino Maru Gothic ProN', Meiryo, 'MS PGothic', sans-serif",
-    mono: "SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace",
+  {
+    id: 3,
+    name: "VCT Champions 2023",
+    location: "Los Angeles, USA",
+    winner: "Evil Geniuses",
+    lat: 34.0522,
+    lng: -118.2437,
+    year: "2023",
+    prizePool: "US$ 2,250,000",
+    score: "Evil Geniuses 3-1 Paper Rex",
+    mvp: "Max “Demon1” Mazanov",
+    anthemUrl: "https://youtu.be/CdZN8PI3MqM?si=Ka1gLnoOl3kBPiG-",
+    localAnthem: require('@/assets/videos/anthem_2023.mp4')
   },
-});
+  {
+    id: 5,
+    name: "VCT Champions 2024",
+    location: "Seoul, South Korea",
+    winner: "EDward Gaming",
+    lat: 37.5665,
+    lng: 126.9780,
+    year: "2024",
+    prizePool: "US$ 2,250,000",
+    score: "EDward Gaming 3-2 Team Heretics",
+    mvp: "Zheng “ZmjjKK” Yongkang",
+    anthemUrl: "https://youtu.be/DX4BE9GmpH4?si=2gPaJDC9nTGuQ57Y",
+    localAnthem: require('@/assets/videos/anthem_2024.mp4')
+  },
+  {
+    id: 6,
+    name: "VCT Champions 2025",
+    location: "Paris, France",
+    winner: "NRG",
+    lat: 48.8566,
+    lng: 2.3522,
+    year: "2025",
+    prizePool: "US$ 2,250,000",
+    score: "NRG 3-2 Fnatic",
+    mvp: "Brock “brawk” Somerhalder",
+    anthemUrl: "https://youtu.be/cLx3tyzht3Y?si=HK9RRt8-plUVLB4s",
+    localAnthem: require('@/assets/videos/anthem_2025.mp4')
+  }
+];
