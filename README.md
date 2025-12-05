@@ -267,6 +267,33 @@ Font via useFonts untuk mencegah FOUT
 
 Video anthem lokal → require()
 
+
+Tampilan :
+![WhatsApp Image 2025-12-05 at 07 31 28_86582da1](https://github.com/user-attachments/assets/2ad510e4-08cf-48d1-b383-47e3151f7f50)
+
+
+
+
+![WhatsApp Image 2025-12-05 at 07 31 27_bd42ad0b](https://github.com/user-attachments/assets/ba3328cb-3bd2-4da4-8a30-c41733f7c720)
+
+
+
+
+![WhatsApp Image 2025-12-05 at 07 31 27_2244c5e9](https://github.com/user-attachments/assets/9c4a8ad7-64d1-43da-af95-83bd21512cf6)
+
+
+
+
+![WhatsApp Image 2025-12-05 at 07 31 27_47d72ada](https://github.com/user-attachments/assets/dbccd645-a916-4c71-827c-5126329f284a)
+
+
+
+![WhatsApp Image 2025-12-05 at 07 31 26_37471d71](https://github.com/user-attachments/assets/679a6806-396b-44ba-ae0a-6e202b1c64cf)
+
+
+
+
+
 🎯 14. Kesimpulan
 
 README ini berisi seluruh dokumentasi teknis lengkap untuk ValorantHub, mencakup arsitektur aplikasi, struktur folder, instalasi, API, logika bisnis, hingga panduan build APK.
